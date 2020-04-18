@@ -18,7 +18,7 @@ def assembled_aoh
     favorite_movie: "Citizen Kane"
   }
   director_3 = {
-    name: "Andrej Tarkovsky", 
+    name: "Pat Monteseian", 
     favorite_movie: "Solaris"
   }
   
