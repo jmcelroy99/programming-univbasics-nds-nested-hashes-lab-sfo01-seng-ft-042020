@@ -17,6 +17,10 @@ def assembled_aoh
     name: "Orson Welles",
     favorite_movie: "Citizen Kane"
   }
+  director_3 = {
+    name: "Andrej Tarkovsky", 
+    favorite_movie: "Solaris"
+  }
   
   result = [director_1, director_2]
 end
