@@ -22,7 +22,7 @@ def assembled_aoh
     favorite_movie: "Solaris"
   }
   
-  result = [director_1, director_2]
+  result = [director_1, director_2, director_3]
 end
 
 def literal_aoh
