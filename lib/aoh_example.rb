@@ -38,7 +38,14 @@ end
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
-  
+  directors = [
+  {:name=>"Ida Lupino", :favorite_movie=>"The Hitch-Hiker"},
+  {:name=>"Orson Welles", :favorite_movie=>"Citizen Kane"},
+  {:name=>"Andrej Tarkovsky", :favorite_movie=>"Solaris"}
+]
+ 
+directors[1] = { name: "Cecil B. DeMille", favorite_movie: "Samson and Delilah" }
+directors #=> => [{:name=>"Ida Lupino", :favorite_movie=>"The Hitch-Hiker"}, {:name=>"Cecil B. DeMille", :favorite_movie=>"Samson and Delilah"}, {:name=>"Andrej Tarkovsky", :favorite_movie=>"Solaris"}]
   
   
 end
